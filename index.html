@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="white_box">
+        <div class="heading_box">
+          <h1>Mortgage Calculator</h1>
+          <a href="">Clear All</a>
+        </div>
+        <div class="Mortgage">
+          <h2>Mortgage Amount</h2>
+          <div class="money_photo">
+            <img class="Prefix" src="./images/Prefix.svg" alt="Prefix" />
+            <input class="input_money" type="text" />
+            <div class="Prefix_box"></div>
+          </div>
+        </div>
+        <div class="middle_box">
+          <div class="middle">
+            <div class="years_box">
+              <h1 class="years">years</h1>
+            </div>
+            <h2>Mortgage Term</h2>
+            <input class="small_input" type="text" />
+          </div>
+          <div class="middle">
+            <div class="years_box" id="percent">
+              <h1 class="years">%</h1>
+            </div>
+            <h2>Interest Rate</h2>
+            <input class="small_input" type="text" />
+          </div>
+        </div>
+        <div class="type_box">
+          <div class="Repayment">
+            <h2>Mortgage Type</h2>
+            <div class="Tupe_box_small">
+              <input class="Type_input" type="radio" name="Mortgage Type" />
+              <h1>Repayment</h1>
+            </div>
+            <div class="Tupe_box_small">
+              <input class="Type_input" type="radio" name="Mortgage Type" />
+              <h1>Interest Only</h1>
+            </div>
+          </div>
+        </div>
+        <button>
+          <img src="./images/ph_calculator-fill.svg" alt="Calculator" />
+          <h1 class="button_h1">Calculate Repayments</h1>
+        </button>
+      </div>
+      <img class="Results_img" src="./images/Results.svg" alt="Results" />
+    </div>
+  </body>
+</html>
